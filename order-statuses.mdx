@@ -1,0 +1,46 @@
+---
+title: "Order statuses"
+description: "The seven states every order moves through, and who changes them."
+---
+
+Every role sees the same seven statuses. They are the backbone of Watl, so they
+are worth learning once — your team will end up saying them out loud during
+service.
+
+| Status | What it means | Who sets it |
+| --- | --- | --- |
+| `PENDING` | The customer placed the order. Nobody has looked at it yet. | Set automatically at checkout |
+| `ACCEPTED` | The restaurant has taken it on. | Manager, cashier or owner |
+| `IN_PROGRESS` | The kitchen is cooking it. | Manager, cashier or owner |
+| `READY_FOR_PICKUP` | Finished and waiting on the pass. | Manager, cashier or owner |
+| `OUT_FOR_DELIVERY` | A driver has it and is on the way. | Manager, cashier or owner |
+| `COMPLETED` | Delivered or collected. Done. | Manager, cashier or owner |
+| `CANCELLED` | Called off. | Manager, cashier or owner |
+
+## Who can change a status
+
+<Warning>
+  **Drivers cannot change any status.** Watl only accepts status changes from a
+  manager, cashier or owner. A driver can see exactly where an order has got to,
+  but marking it delivered is somebody else's job.
+</Warning>
+
+This is deliberate, and it is worth telling a restaurant up front when you set
+them up: somebody on the inside has to close each order out. In practice the
+person on the counter does it when the driver confirms the drop.
+
+## The three order types
+
+Orders also carry a type, which decides whether a driver is involved at all.
+
+<CardGroup cols={3}>
+  <Card title="Delivery" icon="truck">
+    Goes out with one of your drivers.
+  </Card>
+  <Card title="Takeaway" icon="bag-shopping">
+    The customer collects it.
+  </Card>
+  <Card title="Dine-in" icon="utensils">
+    Eaten in the restaurant.
+  </Card>
+</CardGroup>

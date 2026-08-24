@@ -1,0 +1,85 @@
+---
+title: "Managers"
+description: "Run the order list during service, and sign off staff checklists."
+---
+
+A manager's console is deliberately narrow: two screens, and nothing to get lost
+in. **Orders** is where the shift happens. **Validator** is where you sign off
+the checklists your staff worked through.
+
+## Orders
+
+The live order list, and the screen you will have open all shift.
+
+<Frame caption="The order list on a laptop. Six live orders across every status.">
+  <img src="/images/manager-orders-desktop.png" alt="Manager Orders screen showing a sidebar with Orders and Validator, filter tabs, and a table of six orders with reference, customer, items, total, status badge, driver and time." />
+</Frame>
+
+### Reading a row
+
+| Column | What it tells you |
+| --- | --- |
+| Order | The short reference. Read it out to a driver or a customer. |
+| Customer | Their name, with the phone number underneath. |
+| Items | How many things are in the order. |
+| Total | What the order is worth. |
+| Status | Where it has got to. See [Order statuses](/order-statuses). |
+| Driver | Who is taking it, or **Unassigned**. |
+| Date | When it came in. |
+
+### What you can do
+
+<Steps>
+  <Step title="Filter to what matters">
+    The tabs across the top — All, Pending, Accepted, In progress, Completed,
+    Cancelled — narrow the list. During a rush, **Pending** is the one to watch.
+  </Step>
+  <Step title="Move an order along">
+    The **⋯** button at the end of a row is where you change the status and
+    assign a driver.
+  </Step>
+  <Step title="Take a phone order">
+    **New Order** creates one by hand for someone who rang the restaurant.
+  </Step>
+  <Step title="Open the whole order">
+    Click any row to see the items, the notes and the full history.
+  </Step>
+</Steps>
+
+<Note>
+  Assigning a driver and setting the status are two separate actions. Assigning
+  somebody does **not** move the order to *Out for delivery* — do that when the
+  food actually leaves.
+</Note>
+
+## On a phone
+
+<Frame caption="The same screen on a phone. The sidebar becomes a bar along the bottom.">
+  <img src="/images/manager-orders-mobile.png" alt="Manager Orders on a phone: greeting at the top, New Order button, filter tabs, and the order table with a bottom navigation bar." />
+</Frame>
+
+<Tip>
+  **Swipe the table sideways** to reach Status, Driver and Actions. The columns
+  are all there — the table scrolls inside its own frame while the rest of the
+  page stays put.
+</Tip>
+
+## Validator
+
+Where you sign off the checklists your staff were supposed to work through —
+opening checks, closing routines, cleaning rounds.
+
+<Frame caption="One assignment waiting to be validated.">
+  <img src="/images/manager-validator-desktop.png" alt="Task Validator screen showing an assignment card with a MORNING badge, a 0 of 21 checked counter, the assignee name, the checklist title, a date range and an Open assignment button." />
+</Frame>
+
+- **Each card is one assignment** — a checklist given to a person, for a shift, over a date range.
+- **The counter** ("0/21 checked") is the progress through it.
+- **Open assignment** walks you through the items one at a time in a full-screen stepper.
+- **"No assignments scheduled"** is normal at the start of a day. Assignments come from the owner's Tasks screen.
+
+<Info>
+  The wording of a checklist is whatever the owner typed. Watl does not
+  translate it — if the templates were written in Arabic or French, that is what
+  you will see.
+</Info>

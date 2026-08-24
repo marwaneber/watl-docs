@@ -1,0 +1,44 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Watl",
+  "description": "How restaurant staff use Watl — drivers, managers and owners.",
+  "colors": {
+    "primary": "#2E7D46",
+    "light": "#5BC673",
+    "dark": "#1C5C32"
+  },
+  "favicon": "/images/favicon.png",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": [
+          "index",
+          "signing-in",
+          "order-statuses"
+        ]
+      },
+      {
+        "group": "By role",
+        "pages": [
+          "roles/drivers",
+          "roles/managers",
+          "roles/owners"
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Open Watl",
+      "href": "https://partner.watl.app"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://watl.app"
+    }
+  }
+}
